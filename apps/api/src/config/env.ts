@@ -19,9 +19,9 @@ export const env = {
   nodeEnv: process.env.NODE_ENV ?? "development",
   isProd,
   mongoUri: required("MONGODB_URI"),
-  // Optional in development: without it, an in-memory store and a logging
-  // queue are used (see config/redis.ts, jobs/queue.ts).
-  redisUrl: isProd ? required("REDIS_URL") : process.env.REDIS_URL || "",
+  // Optional: without it, sessions are stored in MongoDB and emails are
+  // logged instead of queued (see config/redis.ts, jobs/queue.ts).
+  redisUrl: process.env.REDIS_URL || "",
   jwt: {
     accessSecret: secret("JWT_ACCESS_SECRET", "dev-access-secret-change-me"),
     refreshSecret: secret("JWT_REFRESH_SECRET", "dev-refresh-secret-change-me"),
@@ -29,10 +29,10 @@ export const env = {
     refreshTtl: process.env.JWT_REFRESH_TTL ?? "7d",
   },
   stripe: {
-    // Optional in development: without a key, checkout runs in "test mode"
-    // and orders are marked paid immediately (see order.service.ts).
-    secretKey: isProd ? required("STRIPE_SECRET_KEY") : process.env.STRIPE_SECRET_KEY || "",
-    webhookSecret: isProd ? required("STRIPE_WEBHOOK_SECRET") : process.env.STRIPE_WEBHOOK_SECRET || "",
+    // Optional: without a key, checkout runs in "test mode" and orders are
+    // marked paid immediately (see order.service.ts).
+    secretKey: process.env.STRIPE_SECRET_KEY || "",
+    webhookSecret: process.env.STRIPE_WEBHOOK_SECRET || "",
   },
   corsOrigins: (process.env.CORS_ORIGIN ?? "http://localhost:3000,http://localhost:5173").split(",").filter(Boolean),
 };

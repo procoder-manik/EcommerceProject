@@ -27,10 +27,12 @@ Admin login after seeding: `admin@ecommere.test` / `Admin12345!`
 
 ## Development without Redis or Stripe
 
-- No `REDIS_URL`: refresh tokens live in memory (restarting the API signs everyone out) and emails are logged to the console.
+- No `REDIS_URL`: refresh tokens are stored in MongoDB and emails are logged to the console.
 - No `STRIPE_SECRET_KEY`: checkout runs in test mode and orders are marked paid immediately.
 
-For production set `NODE_ENV=production` and every secret in `apps/api/.env.example`. For real card payments set `STRIPE_SECRET_KEY` / `STRIPE_WEBHOOK_SECRET` in the API and `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` in `apps/web/.env`.
+For production set `NODE_ENV=production`, `JWT_ACCESS_SECRET` and `JWT_REFRESH_SECRET`; Redis and Stripe stay optional.
+
+To deploy the API to Vercel, create a project with root directory `apps/api`, build command `pnpm build:vercel` and the env vars above. `scripts/vercel-build.mjs` bundles it into a single serverless function. For real card payments set `STRIPE_SECRET_KEY` / `STRIPE_WEBHOOK_SECRET` in the API and `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` in `apps/web/.env`.
 
 If the API is stopped, the storefront still renders from a built-in copy of the catalog (browsing only; ordering needs the API).
 

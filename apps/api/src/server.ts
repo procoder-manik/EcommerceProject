@@ -6,8 +6,8 @@ import { stripe } from "./config/stripe.js";
 
 async function main() {
   await connectDb();
-  if (!usingRedis) console.log("[dev] REDIS_URL not set: using in-memory sessions and logging emails.");
-  if (!stripe) console.log("[dev] STRIPE_SECRET_KEY not set: checkout runs in test mode (orders are paid instantly).");
+  if (!usingRedis) console.log("REDIS_URL not set: storing sessions in MongoDB and logging emails.");
+  if (!stripe) console.log("STRIPE_SECRET_KEY not set: checkout runs in test mode (orders are paid instantly).");
   app.listen(env.port, () => {
     // eslint-disable-next-line no-console
     console.log(`API listening on http://localhost:${env.port}`);
