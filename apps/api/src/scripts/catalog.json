@@ -1,0 +1,376 @@
+{
+ "categories": [
+  {
+   "name": "Audio",
+   "slug": "audio"
+  },
+  {
+   "name": "Bags",
+   "slug": "bags"
+  },
+  {
+   "name": "Home",
+   "slug": "home"
+  },
+  {
+   "name": "Wearables",
+   "slug": "wearables"
+  },
+  {
+   "name": "Accessories",
+   "slug": "accessories"
+  }
+ ],
+ "products": [
+  {
+   "name": "Aria Wireless Headphones",
+   "slug": "aria-wireless-headphones",
+   "price": 179,
+   "compareAtPrice": 219,
+   "category": "Audio",
+   "categorySlug": "audio",
+   "images": [
+    "/products/aria-wireless-headphones-1.svg",
+    "/products/aria-wireless-headphones-2.svg",
+    "/products/aria-wireless-headphones-3.svg"
+   ],
+   "description": "Over-ear wireless headphones with active noise cancellation and a 40-hour battery. Tuned warm and detailed, with a hard-shell travel case in the box.",
+   "details": [
+    "40-hour battery, USB-C fast charge",
+    "Adaptive noise cancellation",
+    "Memory-foam cushions, aluminium arms",
+    "Two-year warranty"
+   ],
+   "variantLabel": "Color",
+   "variantOptions": [
+    "Charcoal",
+    "Sand",
+    "Ocean"
+   ],
+   "rating": 4.6,
+   "reviewCount": 312,
+   "stock": 60,
+   "sku": "ARIAWIRE"
+  },
+  {
+   "name": "Cove Portable Speaker",
+   "slug": "cove-portable-speaker",
+   "price": 129,
+   "compareAtPrice": null,
+   "category": "Audio",
+   "categorySlug": "audio",
+   "images": [
+    "/products/cove-portable-speaker-1.svg",
+    "/products/cove-portable-speaker-2.svg",
+    "/products/cove-portable-speaker-3.svg"
+   ],
+   "description": "A pocketable speaker with a surprisingly wide room-filling sound. IP67 sealed, with a woven carry loop that doubles as a hook.",
+   "details": [
+    "14-hour playtime",
+    "IP67 dust and water resistant",
+    "Stereo pairing with a second Cove",
+    "Recycled fabric grille"
+   ],
+   "variantLabel": "Color",
+   "variantOptions": [
+    "Bone",
+    "Moss"
+   ],
+   "rating": 4.5,
+   "reviewCount": 148,
+   "stock": 45,
+   "sku": "COVEPORT"
+  },
+  {
+   "name": "Pathfinder Canvas Backpack",
+   "slug": "pathfinder-canvas-backpack",
+   "price": 94,
+   "compareAtPrice": null,
+   "category": "Bags",
+   "categorySlug": "bags",
+   "images": [
+    "/products/pathfinder-canvas-backpack-1.svg",
+    "/products/pathfinder-canvas-backpack-2.svg",
+    "/products/pathfinder-canvas-backpack-3.svg"
+   ],
+   "description": "Waxed-canvas backpack with a padded 15-inch laptop sleeve, a quick-access pocket and leather trim that darkens beautifully with age.",
+   "details": [
+    "Water-resistant waxed canvas",
+    "Padded 15\" laptop sleeve",
+    "Full-grain leather trim",
+    "Lifetime repair service"
+   ],
+   "variantLabel": "Color",
+   "variantOptions": [
+    "Olive",
+    "Black",
+    "Tan"
+   ],
+   "rating": 4.8,
+   "reviewCount": 201,
+   "stock": 38,
+   "sku": "PATHFIND"
+  },
+  {
+   "name": "Harbor Leather Tote",
+   "slug": "harbor-leather-tote",
+   "price": 148,
+   "compareAtPrice": 180,
+   "category": "Bags",
+   "categorySlug": "bags",
+   "images": [
+    "/products/harbor-leather-tote-1.svg",
+    "/products/harbor-leather-tote-2.svg",
+    "/products/harbor-leather-tote-3.svg"
+   ],
+   "description": "A structured everyday tote cut from vegetable-tanned leather. Roomy enough for a laptop, with an inner zip pocket for the things that get lost.",
+   "details": [
+    "Vegetable-tanned leather",
+    "Suede-lined interior",
+    "Zip pocket and key leash",
+    "Hand-finished edges"
+   ],
+   "variantLabel": "Color",
+   "variantOptions": [
+    "Cognac",
+    "Ink"
+   ],
+   "rating": 4.7,
+   "reviewCount": 96,
+   "stock": 24,
+   "sku": "HARBORLE"
+  },
+  {
+   "name": "Lumen Table Lamp",
+   "slug": "lumen-table-lamp",
+   "price": 68,
+   "compareAtPrice": 85,
+   "category": "Home",
+   "categorySlug": "home",
+   "images": [
+    "/products/lumen-table-lamp-1.svg",
+    "/products/lumen-table-lamp-2.svg",
+    "/products/lumen-table-lamp-3.svg"
+   ],
+   "description": "A dimmable LED lamp with a soft-touch base and a warm 2700K glow. A USB-C port in the base charges your phone beside the bed.",
+   "details": [
+    "Touch dimming, 3 levels",
+    "2700K warm white",
+    "USB-C charging in base",
+    "Fabric cord, 1.8 m"
+   ],
+   "variantLabel": "Finish",
+   "variantOptions": [
+    "Matte Black",
+    "Brushed Brass"
+   ],
+   "rating": 4.4,
+   "reviewCount": 88,
+   "stock": 70,
+   "sku": "LUMENTAB"
+  },
+  {
+   "name": "Ostra Ceramic Vase",
+   "slug": "ostra-ceramic-vase",
+   "price": 54,
+   "compareAtPrice": null,
+   "category": "Home",
+   "categorySlug": "home",
+   "images": [
+    "/products/ostra-ceramic-vase-1.svg",
+    "/products/ostra-ceramic-vase-2.svg",
+    "/products/ostra-ceramic-vase-3.svg"
+   ],
+   "description": "Wheel-thrown stoneware with a matte glaze that pools slightly at the base. Every piece is a little different, which is the point.",
+   "details": [
+    "Wheel-thrown stoneware",
+    "Water-tight glaze",
+    "Approx. 26 cm tall",
+    "Each piece unique"
+   ],
+   "variantLabel": "Glaze",
+   "variantOptions": [
+    "Chalk",
+    "Clay"
+   ],
+   "rating": 4.9,
+   "reviewCount": 64,
+   "stock": 30,
+   "sku": "OSTRACER"
+  },
+  {
+   "name": "Meridian Field Watch",
+   "slug": "meridian-field-watch",
+   "price": 240,
+   "compareAtPrice": null,
+   "category": "Wearables",
+   "categorySlug": "wearables",
+   "images": [
+    "/products/meridian-field-watch-1.svg",
+    "/products/meridian-field-watch-2.svg",
+    "/products/meridian-field-watch-3.svg"
+   ],
+   "description": "A 38 mm field watch with a sapphire crystal, automatic movement and a dial that stays legible in any light. Built to be worn daily and handed down.",
+   "details": [
+    "38 mm steel case, sapphire crystal",
+    "Automatic movement, 42 h reserve",
+    "100 m water resistance",
+    "Quick-release strap"
+   ],
+   "variantLabel": "Strap",
+   "variantOptions": [
+    "Leather",
+    "Steel"
+   ],
+   "rating": 4.8,
+   "reviewCount": 173,
+   "stock": 18,
+   "sku": "MERIDIAN"
+  },
+  {
+   "name": "Pulse Fitness Band",
+   "slug": "pulse-fitness-band",
+   "price": 79,
+   "compareAtPrice": null,
+   "category": "Wearables",
+   "categorySlug": "wearables",
+   "images": [
+    "/products/pulse-fitness-band-1.svg",
+    "/products/pulse-fitness-band-2.svg",
+    "/products/pulse-fitness-band-3.svg"
+   ],
+   "description": "A quiet fitness band that tracks sleep, heart rate and workouts for ten days between charges. No notifications fighting for your wrist.",
+   "details": [
+    "10-day battery",
+    "Sleep and HRV tracking",
+    "5 ATM water resistance",
+    "Hypoallergenic silicone"
+   ],
+   "variantLabel": "Color",
+   "variantOptions": [
+    "Stone",
+    "Midnight"
+   ],
+   "rating": 4.3,
+   "reviewCount": 254,
+   "stock": 80,
+   "sku": "PULSEFIT"
+  },
+  {
+   "name": "Slate Card Wallet",
+   "slug": "slate-card-wallet",
+   "price": 42,
+   "compareAtPrice": null,
+   "category": "Accessories",
+   "categorySlug": "accessories",
+   "images": [
+    "/products/slate-card-wallet-1.svg",
+    "/products/slate-card-wallet-2.svg",
+    "/products/slate-card-wallet-3.svg"
+   ],
+   "description": "A slim card wallet that holds six cards and folded notes without bulk. RFID-blocking lining, edges burnished by hand.",
+   "details": [
+    "Holds 6 cards plus notes",
+    "RFID-blocking lining",
+    "Full-grain leather",
+    "3 mm thin"
+   ],
+   "variantLabel": "Color",
+   "variantOptions": [
+    "Black",
+    "Tan"
+   ],
+   "rating": 4.6,
+   "reviewCount": 310,
+   "stock": 100,
+   "sku": "SLATECAR"
+  },
+  {
+   "name": "Solace Sunglasses",
+   "slug": "solace-sunglasses",
+   "price": 112,
+   "compareAtPrice": null,
+   "category": "Accessories",
+   "categorySlug": "accessories",
+   "images": [
+    "/products/solace-sunglasses-1.svg",
+    "/products/solace-sunglasses-2.svg",
+    "/products/solace-sunglasses-3.svg"
+   ],
+   "description": "Acetate frames polarised for glare and cut to sit comfortably all day. Comes with a hard case and a microfibre cloth.",
+   "details": [
+    "Polarised UV400 lenses",
+    "Bio-acetate frames",
+    "Spring hinges",
+    "Hard case included"
+   ],
+   "variantLabel": "Frame",
+   "variantOptions": [
+    "Tortoise",
+    "Black"
+   ],
+   "rating": 4.5,
+   "reviewCount": 119,
+   "stock": 52,
+   "sku": "SOLACESU"
+  },
+  {
+   "name": "Folio Notebook Set",
+   "slug": "folio-notebook-set",
+   "price": 28,
+   "compareAtPrice": null,
+   "category": "Accessories",
+   "categorySlug": "accessories",
+   "images": [
+    "/products/folio-notebook-set-1.svg",
+    "/products/folio-notebook-set-2.svg",
+    "/products/folio-notebook-set-3.svg"
+   ],
+   "description": "Two lay-flat notebooks with 120 gsm paper that takes fountain pen without bleeding. Dot-grid pages, ribbon marker, elastic closure.",
+   "details": [
+    "120 gsm fountain-pen paper",
+    "Lay-flat stitched binding",
+    "A5, 192 pages each",
+    "Set of two"
+   ],
+   "variantLabel": "Cover",
+   "variantOptions": [
+    "Sage",
+    "Clay"
+   ],
+   "rating": 4.7,
+   "reviewCount": 187,
+   "stock": 120,
+   "sku": "FOLIONOT"
+  },
+  {
+   "name": "Strata Insulated Bottle",
+   "slug": "strata-insulated-bottle",
+   "price": 36,
+   "compareAtPrice": null,
+   "category": "Home",
+   "categorySlug": "home",
+   "images": [
+    "/products/strata-insulated-bottle-1.svg",
+    "/products/strata-insulated-bottle-2.svg",
+    "/products/strata-insulated-bottle-3.svg"
+   ],
+   "description": "Double-wall steel keeps drinks cold for 24 hours or hot for 12. A powder-coat finish that grips and a lid that actually doesn't leak.",
+   "details": [
+    "Cold 24 h / hot 12 h",
+    "18/8 stainless steel",
+    "Leak-proof lid",
+    "750 ml"
+   ],
+   "variantLabel": "Color",
+   "variantOptions": [
+    "Oat",
+    "Graphite"
+   ],
+   "rating": 4.6,
+   "reviewCount": 402,
+   "stock": 150,
+   "sku": "STRATAIN"
+  }
+ ]
+}
